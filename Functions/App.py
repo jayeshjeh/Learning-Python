@@ -1,4 +1,6 @@
-import Marvellous
+#import Marvellous
+# from Marvellous import *            # here * means everything
+import Marvellous as M
 import Infosystems
 
 def main():
@@ -6,7 +8,7 @@ def main():
     no1 = int(input("Enter first number : "))
     no2 = int(input("Enter second number : "))
 
-    ret = Marvellous.Addition(no1, no2)
+    ret = M.Addition(no1, no2)
     print("Addition is : ",ret)
 
     ret = Infosystems.Subtraction(no1,no2)
