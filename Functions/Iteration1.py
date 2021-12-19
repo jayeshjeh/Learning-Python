@@ -3,7 +3,7 @@ def Iteration():
 
     while(no < 5):
         print("Hello")
-        no = (no + 1)
+        no = (no + 1)   # = is assignment operator
 
 def Sequence():
     print("Hello")
