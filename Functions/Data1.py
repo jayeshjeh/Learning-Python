@@ -2,8 +2,12 @@
 # List
 # Sequential
 # Indexed
-# Mutable
-Data = [11, 21, 51, 101]
+# Data is Mutable
+# List is Mutable
+# Allows Duplicate
+# Hetrogeneous
+
+Data = [11, 21, 51, 101, 3.14]
 
 print("Data type is ", type(Data))
 print("Length of list is ", len(Data))
@@ -17,3 +21,9 @@ print("New data is : ", Data[0])
 
 Data.append(111)
 print(Data)
+
+Data.insert(2, 51)
+print(Data)
+
+print(Data[-1])
+print(Data[-2])
