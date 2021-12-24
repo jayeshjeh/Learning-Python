@@ -22,8 +22,13 @@ print("New data is : ", Data[0])
 Data.append(111)
 print(Data)
 
-Data.insert(2, 51)
+Data.insert(2, 44)
 print(Data)
 
+Data.insert(-1,151)
+print(Data)
+
+print(Data[0])
+print(Data[1])
 print(Data[-1])
 print(Data[-2])

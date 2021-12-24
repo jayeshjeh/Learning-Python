@@ -14,9 +14,13 @@ print(Data)
 print(Data[0])
 print(Data[1])
 print(Data[-1])
+print(Data[4])
+print(Data[3])
 print(Data[-2])
+print(Data[-3])
+print(Data[2])
 
 print("Data[1:3] : ", Data[1:3])
+print("Data[0:4] : ", Data[0:4])
+print("Length of Data is :", len(Data))
 
-9209965539
-7385163163
