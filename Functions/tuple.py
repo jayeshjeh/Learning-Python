@@ -5,7 +5,7 @@
 # Ordered
 # Allows Duplicate
 # Data of tuple is immutable
-Data = (10, 20, 30, 40, "Marvellous", 10)
+Data = (10, 20, 30, 40, "Marvellous")
 
 print("Data type is : ", type(Data))
 
