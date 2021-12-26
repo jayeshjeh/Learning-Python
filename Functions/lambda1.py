@@ -13,9 +13,10 @@ def main():
     print("Addition is : ", ret)
     print(type(Add))
     print(type(AddX))
-    print(type(lambda a, b : a+b))
+    print(lambda a, b : a+b)
 
 if __name__ == "__main__":
     main()
+
 
 
