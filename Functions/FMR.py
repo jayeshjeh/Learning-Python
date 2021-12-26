@@ -10,7 +10,6 @@ ChkEven = lambda no: (no % 2 == 0)
 
 Increment = lambda no: no + 2
 
-
 #def Addition(a,b):
  #   return a + b
 
