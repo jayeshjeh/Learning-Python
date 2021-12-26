@@ -3,6 +3,7 @@ def fun(no):
         print("*\t" * no)
 
 
+
 def main():
     print("Enter number of rows : ")
     sum = int(input())
@@ -11,3 +12,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
