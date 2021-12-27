@@ -7,14 +7,14 @@ def fun(v1):
         data.append(num)
 
     print(data)
-    print(type(data))
-    print("Addition is ", sum(data))
-
-    sull = 0
+    sum = 0
     for i in range(v1):
-        sull = sull + data[i]
+        if(data[i] % 2 != 0):
+            no2 = data[i]
+            sum = sum + no2
 
-    print("Addition is : ", sull)
+    print("Frequency is : ", sum)
+
 
 def main():
     print("Enter the length of numbers")
