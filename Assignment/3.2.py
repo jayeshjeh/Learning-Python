@@ -8,7 +8,16 @@ def fun(v1):
 
     print(data)
     print(type(data))
-    print("Addition is ", sum(data))
+    print("Maximum num is ", max(data))
+
+    mx = data[0]
+
+    for x in data:
+        if x > mx:
+            mx = x
+
+    print("Maximum number is : ", mx)
+
 
 def main():
     print("Enter the length of numbers")

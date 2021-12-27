@@ -2,7 +2,7 @@ print("Enter number of elements")
 size = int(input())
 
 data = {0}
-
+print(type(data))
 for i in range(size):
     print("Enter element no : ", i+1)
     no = int(input())
