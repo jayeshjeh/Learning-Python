@@ -1,5 +1,5 @@
 # default argrument
-def area(radius, PI = 3.14):
+def area(radius, PI=3.14):
     ans = 0.0
     ans = PI * radius * radius
     return ans

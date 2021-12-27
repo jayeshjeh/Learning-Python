@@ -19,7 +19,7 @@ def main():
 
     print("2nd loop")
     for no in data:
-        print(no, end = "\t")
+        print(no, end="\t")
 
     print("Typecode of array is ", data.typecode)
 

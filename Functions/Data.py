@@ -11,7 +11,7 @@ x = True            # bool
 print(type(x))
 print(x)
 
-data = 10+ 5j          # X + Yj    X -> Real part  Y -> Imaginary part
+data = 10+5j          # X + Yj    X -> Real part  Y -> Imaginary part
 print(type(data))
 print(data)
 
@@ -37,3 +37,4 @@ a = None
 print(a)
 a = [12, 121, 14]
 print(a)
+

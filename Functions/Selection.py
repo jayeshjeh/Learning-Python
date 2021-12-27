@@ -12,10 +12,11 @@ def main():
     print("Enter second number")
     no2 = int(input())
 
-    ret = Maximum(no1,no2)
+    ret = Maximum(no1, no2)
 
-    print("Maximum number is : ",ret)
+    print("Maximum number is : ", ret)
 
 
 if __name__ =="__main__":
     main()
+

@@ -3,7 +3,7 @@ import array as ARR
 def main():
     print("Demo of array in python")
 
-    data = ARR.array('i', [10, 20, 30, 40 ])
+    data = ARR.array('i', [10, 20, 30, 40])
 
     print(data)
 
@@ -19,7 +19,7 @@ def main():
 
     print("2nd loop")
     for no in data:
-        print(no, end = "\t")
+        print(no, end="\t")
 
 
 if __name__ == "__main__":

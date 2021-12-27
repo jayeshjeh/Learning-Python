@@ -17,8 +17,8 @@ print("Element at 3rd index : ", Data[3])
 
 print("Last element is : ", Data[-1])
 
-#Data[0] = 11
+# Data[0] = 11
 
-#Data.append(50)
+# Data.append(50)
 
-#print("Updated data is : ", Data)
+# print("Updated data is : ", Data)

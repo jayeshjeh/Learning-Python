@@ -1,6 +1,6 @@
 
-no1 =0
-no2 =0
+no1 = 0
+no2 = 0
 
 print("Enter first number")
 no1 = int(input())
@@ -10,4 +10,5 @@ no2 = int(input())
 
 ans = no1 + no2
 
-print("Addition is : ",ans)
+print("Addition is : ", ans)
+
