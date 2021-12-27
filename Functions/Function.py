@@ -10,7 +10,7 @@ def main():
     print("Enter second number : ")
     no2 = int(input())
 
-    ret1,ret2 = Arithematic(no1, no2)
+    ret1, ret2 = Arithematic(no1, no2)
 
     print("Addition is : ", ret1)
     print("Subtraction is : ", ret2)
