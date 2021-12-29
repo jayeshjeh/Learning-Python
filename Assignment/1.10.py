@@ -11,7 +11,7 @@ def main():
 
     print(len(String))
 
-    ret = Count(String)
+    Count(String)
 
 
 if __name__ == "__main__":
