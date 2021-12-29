@@ -9,7 +9,7 @@ def fun(v1):
     print(data)
     sum = 0
     for i in range(v1):
-        if(data[i] % 2 != 0):
+        if(data[i] % i != 0):
             no2 = data[i]
             sum = sum + no2
 

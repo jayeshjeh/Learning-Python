@@ -8,6 +8,7 @@ def Fact(num):
         print(num, "It is a prime number")
 
 
+
 def main():
     print("Enter number : ")
     no = int(input())
