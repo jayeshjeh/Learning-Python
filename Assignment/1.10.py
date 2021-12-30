@@ -4,8 +4,6 @@ def Count(string):
         cnt = cnt + 1
     print("Total characters are : ", cnt)
 
-
-
 def main():
     String = input("Enter string : ")
 
