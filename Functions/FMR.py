@@ -13,7 +13,7 @@ Increment = lambda no: no + 2
 #def Addition(a,b):
  #   return a + b
 
-Addition = lambda a,b: a+b
+Addition = lambda a, b: a+b
 
 def main():
     data = [5, 7, 6, 8, 4]
