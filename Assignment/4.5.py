@@ -1,7 +1,5 @@
 from functools import reduce
 
-primenumber =
-
 
 def main():
     print("Enter length of numbers")
