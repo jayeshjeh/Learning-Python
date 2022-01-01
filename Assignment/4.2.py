@@ -1,17 +1,11 @@
-def gun(no1, no2):
-    return lambda no1, no2: no1 * no2
+Power = lambda a, b: a*b
 
-def main():
-    no1 = int(input("Enter first number"))
-    no2 = int(input("Enter second number"))
+print("Enter first number: ")
+no1 = int(input())
 
+print("Enter second number")
+no2 = int(input())
 
-    x = lambda no1, no2 : no1 * no2
+ret = Power(no1, no2)
 
-    newdata = gun(no1, no2)
-    print(newdata)
-
-
-if __name__ == "__main__":
-    main()
-
+print("Result is: ", ret)
