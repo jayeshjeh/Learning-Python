@@ -10,7 +10,7 @@ def main():
     incrementdata = list(map(lambda no: no + 2, newdata))
     print("Data after map : ", incrementdata)
 
-    ret = reduce(lambda a,b: a+b, incrementdata)
+    ret = reduce(lambda a, b: a+b, incrementdata)
     print("Data after reduce : ", ret)
 
 if __name__ == "__main__":
