@@ -16,19 +16,22 @@ class Demo:
         print("Inside class method")
         print(cls.A)
         print(Demo.A)
-        #print(cls.B)
+    #   print(cls.B)
 
     @staticmethod
     def fun_static():       # static method
         print("Inside static method")
+        print(Demo.A)
+
+        # print(Demo.B)
 
 def main():
 
+    Demo.fun_static()
+    # obj = Demo()                   # object creation
+#   obj.fun_instance()
 
-    obj = Demo()                   # object creation
-    #obj.fun_instance()
-
-    Demo.fun_class()
+   # Demo.fun_class()
 
 
 if __name__ == "__main__":
