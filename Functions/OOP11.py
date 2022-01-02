@@ -2,14 +2,12 @@ class Base1:
     def __init__(self):
         print("Inside Base1")
 
-
     def fun(self):
         print("fun of Base1")
 
 class Base2:
     def __init__(self):
         print("Inside Base2")
-
 
     def fun(self):
         print("fun of Base2")
