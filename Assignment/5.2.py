@@ -5,14 +5,14 @@ class Circle:
         self.a = area
         self.c = circum
 
-    def Accept(self, radius):
+    def accept(self, radius):
         self.r = radius
 
-    def CalculateArea(self):
+    def calculateArea(self):
         result = Circle.PI * (self.r * self.r)
         return result
 
-    def Circumference(self):
+    def circumference(self):
         ans = 2 * Circle.PI * self.r
         return ans
 
@@ -22,11 +22,11 @@ def main():
     Radius = input()
     obj = Circle(Radius)
 
-    obj.Accept()
-    ret = obj.CalculateArea()
+    obj.accept()
+    ret = obj.calculateArea()
     print("Area is: ", ret)
 
-    bet = obj.Circumference()
+    bet = obj.circumference()
     print("Circumference is: ", bet)
 
 
