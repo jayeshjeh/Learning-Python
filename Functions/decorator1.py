@@ -4,7 +4,7 @@ def division(a, b):
     return ans
 
 
-def smart_division(func_name):
+def smartdivision(func_name):
     def inner(a, b):
         if a < b:
             a, b = b, a
@@ -13,7 +13,7 @@ def smart_division(func_name):
     return inner
 
 
-Division = smart_division(division)
+division = smartdivision(division)
 
 
 def main():
