@@ -11,6 +11,7 @@ def outer():
 def main():
     func_name = outer()     # its call to the outer function
     func_name()             # its call to the inner function
+    # inner()
 
 
 if __name__ == "__main__":
