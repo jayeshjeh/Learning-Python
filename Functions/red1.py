@@ -1,20 +1,13 @@
-def display():
-    print("using for loop")
-    for i in range(4):
-        print("Marvellous")
 
-
-def display_x():
-    print("Using while loop")
-    i = 0
-    while i < 4:
+def display_r(no):
+    if no > 0:
         print("Marvellous")
-        i = i + 1
+        no = no - 1
+        display_r(no)             # recursive call
 
 
 def main():
-    display()
-    display_x()
+    display_r(4)
 
 
 if __name__ == "__main__":
