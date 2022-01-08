@@ -9,8 +9,8 @@ def outer():
 
 
 def main():
-    func_name = outer()
-    func_name()
+    func_name = outer()     # its call to the outer function
+    func_name()             # its call to the inner function
 
 
 if __name__ == "__main__":
