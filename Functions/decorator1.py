@@ -5,7 +5,7 @@ def division(a, b):
 
 
 def smartdivision(func_name):
-    def inner(a, b):
+    def inner(a, b):                    # passing variable not needed to be different(refer whole code)
         if a < b:
             a, b = b, a
         return func_name(a, b)
@@ -17,13 +17,13 @@ division = smartdivision(division)
 
 
 def main():
-    no1 = 0
-    no2 = 0
+    a = 0
+    b = 0
 
-    no1 = int(input("Enter first number: "))
-    no2 = int(input("Enter second number: "))
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
 
-    ret = division(no1, no2)
+    ret = division(a, b)
 
     print("Division is: ", ret)
 
