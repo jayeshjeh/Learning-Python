@@ -1,4 +1,4 @@
-def fun(i):
+def fun(i=0):
     if i < 5:
         print(i)
         i = i + 1       # i++
@@ -6,7 +6,7 @@ def fun(i):
 
 
 def main():
-    fun(0)
+    fun()
 
 
 if __name__ == "__main__":
