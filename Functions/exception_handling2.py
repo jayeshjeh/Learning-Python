@@ -6,7 +6,7 @@ def division(a, b):
     except ZeroDivisionError:
         print("Exception occurred in ZeroDivisionError block")
 
-    except Exception:            # catch(exception eboj)
+    except Exception:          # catch(exception e_boj)
         print("Exception occurred in Exception Block")
     return ans
 
