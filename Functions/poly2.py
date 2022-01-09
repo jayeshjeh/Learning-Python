@@ -26,6 +26,11 @@ def main():
     bobj = Base()
     dobj = Derived()
 
+    bobj.fun()
+    dobj.fun()
+    dobj.sun()
+    dobj.gun()
+
 
 if __name__ == "__main__":
     main()
