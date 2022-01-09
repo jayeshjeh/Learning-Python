@@ -1,13 +1,12 @@
-i = 0
-def fun():
+def fun(i):
     if i < 5:
         print(i)
         i = i + 1       # i++
-        fun()           # recursive call
+        fun(i)           # recursive call
 
 
 def main():
-    fun()
+    fun(0)
 
 
 if __name__ == "__main__":
