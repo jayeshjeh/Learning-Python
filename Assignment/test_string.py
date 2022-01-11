@@ -27,5 +27,15 @@ lol.extend(b'name')
 print(lol)
 
 print(lol.decode())
+print('****************')
+
+
+jeh = 'keyboard'
+print(jeh.find('ard'))      # index position of first letter of find
+print(jeh)
+
+print(jeh.replace('key', 'lock'))
+print(jeh)                  # strings are immutable
+
 
 
