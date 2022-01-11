@@ -40,6 +40,8 @@ print(jeh.upper())
 print(jeh.isalpha())
 print(jeh.isascii())
 print(jeh.__add__('jayesh'))
+print(help(jeh.replace))
+
 
 line = 'abc, xyz, ghj, iop  h'
 print(line.split(','))
