@@ -42,8 +42,9 @@ print(jeh.isascii())
 print(jeh.__add__('jayesh'))
 print(help(jeh.replace))
 
-
 line = 'abc, xyz, ghj, iop  h'
 print(line.split(','))
 print(line.rstrip().split(','))
-print(dir(line))
+# print(dir(line))
+
+print(u'x' + 'y')
