@@ -1,2 +1,4 @@
-for index, character in enumerate("abcdefghij"):
-    print(index + 1, character)
+import requests
+resp = requests.get("http://olympus.realpython.org")
+html = resp.text
+print(html[86:132])
