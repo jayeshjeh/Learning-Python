@@ -36,6 +36,12 @@ print(jeh)
 
 print(jeh.replace('key', 'lock'))
 print(jeh)                  # strings are immutable
+print(jeh.upper())
+print(jeh.isalpha())
+print(jeh.isascii())
+print(jeh.__add__('jayesh'))
 
-
-
+line = 'abc, xyz, ghj, iop  h'
+print(line.split(','))
+print(line.rstrip().split(','))
+print(dir(line))
