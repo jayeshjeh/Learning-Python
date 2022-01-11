@@ -20,8 +20,8 @@ while current_choice != '0':
             computer_parts.append("HDMI cable")
     else:
         print("Please add options from the list below:")
-        for part in available_parts:
-            print("{0}: {1}".format(available_parts.index(part) + 1, part))
+        for number, part in enumerate(available_parts):
+            print("{0}: {1}".format(number + 1, part))
     current_choice = input()
 
 print(computer_parts)
