@@ -1,6 +1,6 @@
 J = 'Jayesh'
 print(len(J) - 1)
-print(J[len(J)- 1])
+print(J[len(J) - 1])
 
 print(J[1:3])
 print(J[1:])
