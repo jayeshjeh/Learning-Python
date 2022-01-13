@@ -32,8 +32,16 @@ rec['job'].add('janitor')
 print(rec)
 print(rec)
 
+print()
+
 lol = list(rec.keys())
+lol.sort()
 print(lol)
 
 for key in lol:
+    print(key, "->", rec[key])
+
+print()
+
+for key in sorted(rec):
     print(key, "->", rec[key])
