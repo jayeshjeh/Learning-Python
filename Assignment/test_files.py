@@ -13,4 +13,5 @@ print(dir(f))
 print(help(f.seek))
 
 print('***')
-for line in open('lola.py') : print(line)
+for line in open('lola.py'): print(line)
+
