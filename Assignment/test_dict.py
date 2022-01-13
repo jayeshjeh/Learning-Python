@@ -31,3 +31,9 @@ print(rec['job'])
 rec['job'].add('janitor')
 print(rec)
 print(rec)
+
+lol = list(rec.keys())
+print(lol)
+
+for key in lol:
+    print(key, "->", rec[key])
