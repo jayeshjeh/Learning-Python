@@ -9,7 +9,7 @@ def main():
     print("Enter number to print star: ")
     n = int(input())
 
-    vet = fun(n)
+    fun(n)
 
 
 if __name__ == "__main__":

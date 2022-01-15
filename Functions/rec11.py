@@ -1,4 +1,6 @@
 i = 0
+
+
 def fun():
     global i
     if i < 5:
@@ -8,6 +10,7 @@ def fun():
 
 
 def main():
+
     fun()
 
 
