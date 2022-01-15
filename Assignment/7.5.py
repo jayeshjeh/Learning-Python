@@ -11,7 +11,7 @@ def main():
     no1 = int(input())
 
     new = bull(no1)
-    print("Addition is: ", new)
+    print("Factorial is: ", new)
 
 
 if __name__ == "__main__":
