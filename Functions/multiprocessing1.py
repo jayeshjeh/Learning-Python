@@ -27,6 +27,11 @@ def main():
     process1.start()
     process2.start()
 
+    process1.join()
+    process2.join()
+
+    print("End of main")
+
 
 if __name__ == "__main__":
     main()
