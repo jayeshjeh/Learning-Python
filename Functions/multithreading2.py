@@ -1,9 +1,10 @@
+import multiprocessing
 import os
 import threading
 
 
 def main():
-    print()
+    print("Number of cores: ", multiprocessing.cpu_count())
 
 
 if __name__ == "__main__":
