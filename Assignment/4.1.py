@@ -1,8 +1,14 @@
-Power = lambda a: 2**a
+power = lambda a: 2**a
 
-print("Enter first number: ")
-no1 = int(input())
 
-ret = Power(no1)
+def main():
+    print("Enter first number: ")
+    no1 = int(input())
 
-print("Result is: ", ret)
+    ret = power(no1)
+
+    print("Result is: ", ret)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,12 +1,11 @@
 def Fact(num):
     for i in range(2, num):
         if (num % i) == 0:
-            print(num, "is not a prime number")
-            print(i, "times", num // i, "is", num)
+            print(num, "Is not a prime number")
+            print(i, "Times", num // i, "is", num)
             break
     else:
         print(num, "It is a prime number")
-
 
 
 def main():
@@ -18,4 +17,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

@@ -1,11 +1,17 @@
-Power = lambda a, b: a*b
+power = lambda a, b: a*b
 
-print("Enter first number: ")
-no1 = int(input())
 
-print("Enter second number")
-no2 = int(input())
+def main():
+    print("Enter first number: ")
+    no1 = int(input())
 
-ret = Power(no1, no2)
+    print("Enter second number")
+    no2 = int(input())
 
-print("Result is: ", ret)
+    ret = power(no1, no2)
+
+    print("Result is: ", ret)
+
+
+if __name__ == "__main__":
+    main()

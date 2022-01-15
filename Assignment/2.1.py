@@ -1,5 +1,6 @@
 import Arithemetic
 
+
 def main():
     print("Enter First number : ")
     no1 = int(input())
@@ -18,6 +19,7 @@ def main():
 
     ret = Arithemetic.Div(no1, no2)
     print("Division is : ", ret)
+
 
 if __name__ == "__main__":
     main()

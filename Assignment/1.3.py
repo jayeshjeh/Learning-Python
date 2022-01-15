@@ -1,8 +1,9 @@
 
-def Addition(value1, value2):
+def addition(value1, value2):
     result = value1 + value2
 
     return result
+
 
 def main():
     print("Enter First number")
@@ -11,8 +12,9 @@ def main():
     print("Enter Second Number")
     no2 = int(input())
 
-    ret = Addition(no1,no2)
-    print("Addition is : ",ret)
+    ret = addition(no1, no2)
+    print("Addition is : ", ret)
+
 
 if __name__ == "__main__":
     main()

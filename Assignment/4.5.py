@@ -1,6 +1,14 @@
 from functools import reduce
 
 
+def primenumber(no):
+    for i in range(2, no):
+        if no % i == 0:
+            return False
+        else:
+            return True
+
+
 def main():
     print("Enter length of numbers")
     no1 = int(input())
@@ -17,11 +25,12 @@ def main():
     newdata = list(filter(primenumber, data))
     print("Data after filter: ", newdata)
 
-    squrno = list(map(lambda a: (a*a), newdata))
+    squrno = list(map(lambda a: (a*2), newdata))
     print("Data after filter: ", squrno)
 
     ret = reduce(lambda a, b: a + b, squrno)
     print("Data after reduce: ", ret)
+
 
 if __name__ == "__main__":
     main()

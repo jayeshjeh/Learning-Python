@@ -1,13 +1,14 @@
-def Star(value):
+def star(value):
     for i in range(value):
-        print("* ")
+        print("*", end='')
 
 
 def main():
     print("Enter number")
     no = int(input())
 
-    ret = Star(no)
+    star(no)
+
 
 if __name__ == "__main__":
     main()

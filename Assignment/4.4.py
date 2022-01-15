@@ -1,5 +1,6 @@
 from functools import reduce
 
+
 def main():
     print("Enter length of numbers")
     no1 = int(input())
@@ -21,6 +22,7 @@ def main():
 
     ret = reduce(lambda a, b: a + b, squrno)
     print("Data after reduce: ", ret)
+
 
 if __name__ == "__main__":
     main()

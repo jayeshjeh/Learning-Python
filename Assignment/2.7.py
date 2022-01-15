@@ -5,11 +5,13 @@ def fun(n):
             print(j, end=" ")
         print()
 
+
 def main():
     print("Enter number of rows")
     no = int(input())
 
     fun(no)
+
 
 if __name__ == "__main__":
     main()

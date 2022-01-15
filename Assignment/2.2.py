@@ -3,13 +3,12 @@ def fun(no):
         print("*\t" * no)
 
 
-
 def main():
     print("Enter number of rows : ")
-    sum = int(input())
+    yum = int(input())
 
-    ret = fun(sum)
+    fun(yum)
+
 
 if __name__ == "__main__":
     main()
-
