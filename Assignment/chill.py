@@ -1,45 +1,21 @@
-from functools import reduce
+import os
+import multiprocessing
 
 
-def prime(iNo):
-
-    for i in range(2, iNo):
-        if iNo % i == 0:
-
-            return False
-        else:
-
-            return True
-
-
-MultiPly = lambda iNo1: iNo1 * 2
-
-
-Maximum = lambda iNo1, iNo2: iNo1 if iNo1 > iNo2 else iNo2
+def Square(No):
+    print("PID is : ", os.getpid())
+    return No * No
 
 
 def main():
+    data = [5, 3, 1, 4, 8, 2]
 
-    iValues = int(input("Enter the size of list: "))
-    list1 = []
+    result = list()
 
-    for i in range(iValues):
-        element = int(input("Enter the element: "))
-        list1.append(element)
+    for i in range(len(data)):
+        result.append(Square(data[i]))
 
-    print("Input List = ", list1)
-
-
-    filteredData = list(filter(prime, list1))
-    print("List after filter = ", filteredData)
-
-
-    Multi = list(map(MultiPly, filteredData))
-    print("List after map = ", Multi)
-
-
-    Max = reduce(Maximum, Multi)
-    print("Output of reduce = ", Max)
+    print("Result is : ", result)
 
 
 if __name__ == "__main__":
