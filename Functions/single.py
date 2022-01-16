@@ -1,7 +1,10 @@
 import time
+import os
 
 
 def checkEvenOdd(x):
+    print("PID is: ", os.getpid())
+
     if x == 0:
         return 'zero'
     elif x % 2 == 0:
@@ -12,6 +15,7 @@ def checkEvenOdd(x):
 
 def main():
     print("Single process single thread application")
+    print("PID of main process is: ", os.getpid())
     starttime = time.time()
     for i in range(0, 10):
         time.sleep(2)

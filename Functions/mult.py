@@ -18,7 +18,7 @@ def multiprocessing_func(x):
 
 
 if __name__ == '__main__':
-    print("Mult processed application : ")
+    print("Mult processed application with PID: ", os.getpid())
     starttime = time.time()
     processes = []
     for i in range(0, 10):
