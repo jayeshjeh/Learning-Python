@@ -9,6 +9,12 @@ def primenumber(no):
             return True
 
 
+mult = lambda no: (no*2)
+
+
+maximum = lambda a, b: a if a > b else b
+
+
 def main():
     print("Enter length of numbers")
     no1 = int(input())
@@ -25,10 +31,10 @@ def main():
     newdata = list(filter(primenumber, data))
     print("Data after filter: ", newdata)
 
-    squrno = list(map(lambda a: (a*2), newdata))
+    squrno = list(map(mult, newdata))
     print("Data after filter: ", squrno)
 
-    ret = reduce(lambda a, b: a + b, squrno)
+    ret = reduce(maximum, squrno)
     print("Data after reduce: ", ret)
 
 
