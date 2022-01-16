@@ -8,12 +8,13 @@ def Square(No):
 
 
 def main():
-    data = [5, 3, 1, 4, 8, 2]
+    data = [5, 323, 15, 41, 2, 15, 61, 32, 156, 1, 21531, 1, 4, 8, 2]
+
+    p = multiprocessing.Pool()
 
     result = list()
 
-    for i in range(len(data)):
-        result.append(Square(data[i]))
+    result = p.map(Square, data)
 
     print("Result is : ", result)
 
