@@ -7,20 +7,21 @@ def fun(v1):
         data.append(num)
 
     print(data)
-    sum = 0
+    isum = 0
     for i in range(v1):
         if(data[i] % i != 0):
             no2 = data[i]
-            sum = sum + no2
+            isum = isum + no2
 
-    print("Frequency is : ", sum)
+    print("Frequency is : ", isum)
 
 
 def main():
     print("Enter the length of numbers")
     no1 = int(input())
 
-    ret = fun(no1)
+    fun(no1)
+
 
 if __name__ == "__main__":
     main()
