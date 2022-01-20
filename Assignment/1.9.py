@@ -8,7 +8,7 @@ def main():
     print("How many even numbers want to display")
     size = int(input())
 
-    ret = display(size)
+    display(size)
 
 
 if __name__ == "__main__":

@@ -1,24 +1,19 @@
-import os
 import threading
 
 
-def even():
-    for i in range(2, 21, 2):
-        print(i)
-
-
-def odd():
-    for i in range(1, 21, 2):
-        print(i)
+def display(value):
+    for i in range(2, (value*2 + 1)):
+        if i % 2 == 0:
+            print("Number is : ", i)
 
 
 def main():
+    print("How many even numbers want to display")
+    size = int(input())
 
-    thread1 = threading.Thread(target=even, name="even")
-    thread2 = threading.Thread(target=odd, name="odd")
+    thread1 = threading.Thread(target=display, args=(size, ))
 
     thread1.start()
-    thread2.start()
 
 
 if __name__ == "__main__":
