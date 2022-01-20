@@ -22,6 +22,7 @@ def main():
 
     thread2.start()
     thread2.join()
+    print("End of main")
 
 
 if __name__ == "__main__":

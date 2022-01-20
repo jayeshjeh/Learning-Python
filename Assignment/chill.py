@@ -2,33 +2,17 @@ import os
 import threading
 
 
-def chkeven(x):
-    if x % 2 == 0:
-        return x
-    # else :
-    # ret =(odd)
-    # else:
-    # return 'odd'
-
-
 def even():
-    # print("PID of even is:",os.getpid())
-    # print("PPID of even is :",os.getppid())
-    print("Thread Name:", threading.current_thread().name)
-    elist = []
-    for i in range(0, 20):
-        ret = chkeven(i)
-        elist.append(ret)
-    print("Even num are:", elist)
+    for i in range(2, 21, 2):
+        print(i)
 
 
 def odd():
-    # print("PPID of odd is :",os.getppid())
-    print("Thread Name:", threading.current_thread().name)
+    for i in range(1, 21, 2):
+        print(i)
 
 
 def main():
-    print("PID of main :", os.getpid())
 
     thread1 = threading.Thread(target=even, name="even")
     thread2 = threading.Thread(target=odd, name="odd")
