@@ -22,7 +22,7 @@ def main():
     ilist = []
 
     for i in range(no1):
-        data = int(input())
+        data = int(input('Enter element: '))
         ilist.append(data)
 
     print("Data is: ", ilist)
