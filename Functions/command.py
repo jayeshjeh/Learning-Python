@@ -7,6 +7,7 @@ def main():
     print(type(argv[1]))
 
     ans = int(argv[1]) + int(argv[2])
+
     print(ans)
 
 
