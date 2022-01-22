@@ -1,4 +1,3 @@
-
 from sys import *
 
 
@@ -14,6 +13,8 @@ def main():
 
     if (len(argv) > 3) or (len(argv) < 2):
         print("Invalid number of arguments")
+        print('Use -u flag for usage')
+        print('Use -h flag for help')
         exit()
 
     if argv[1] == '-u' or argv[1] == '-U':
@@ -26,8 +27,13 @@ def main():
         print("Second_Argument: Any numeric value")
         exit()
 
-    ret = addition(int(argv[1]), int(argv[2]))
-    print("Addition is: ", ret)
+    try:
+        ret = addition(int(argv[1]), int(argv[2]))
+        print("Addition is: ", ret)
+
+    except Exception:
+        print("Exception while executing the script")
+        print("Please check the input or contact the developer")
 
 
 if __name__ == "__main__":
