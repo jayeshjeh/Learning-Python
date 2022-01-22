@@ -7,7 +7,7 @@ def addition(no1, no2):
 
 
 def main():
-    print('-----------------Marvellous: Automation 1------------------')
+    print('----------------- Marvellous: Automation 1 ------------------')
     print('Script name: ', argv[0])
     print('Number of arguments accepted: ', len(argv) - 1)
 
