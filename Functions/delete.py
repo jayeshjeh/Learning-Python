@@ -2,7 +2,7 @@ import os
 
 
 def main():
-    print("Enter the file name that you want to open: ")
+    print("Enter the file name that you want to delete: ")
     name = input()
 
     if os.path.exists(name):

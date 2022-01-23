@@ -7,4 +7,6 @@ def main():
 
     print("File information is: ", fd)
 
+
+if __name__ == "_main__":
     main()
