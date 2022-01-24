@@ -48,3 +48,23 @@ print(line.rstrip().split(','))
 # print(dir(line))
 
 print(u'x' + 'y')
+
+new = 'JayeshParmar'
+print(len(new))
+
+new1 = 'Supriya'
+print(new + ' ' + new1)
+
+now = 'bazinga'
+print(now[2:-1])
+now = 'bazinga'
+print(now.lower())
+print(now.upper())
+print(now.rstrip())
+print(now.lstrip())
+print(now.strip())
+print(now.startswith('ba'))
+print(now.endswith('zinga'))
+print(now.startswith('Baz'))
+print(now.endswith('zingA'))
+
