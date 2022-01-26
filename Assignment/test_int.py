@@ -15,3 +15,6 @@ print(3.1415 * 2)
 print(repr(3.1415 * 2))
 a = 3.1415 * 2
 print(a)
+
+num = 175e3
+print(num)
