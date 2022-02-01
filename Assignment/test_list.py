@@ -1,5 +1,9 @@
+empty = []
 even = [2, 4, 6, 8]
 odd = [1, 3, 5, 7, 9]
+
+numbs = even + odd
+print(numbs)
 
 even.extend(odd)
 print(even)
