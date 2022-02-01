@@ -7,3 +7,7 @@ print(numbers)
 
 sorted_numbers = sorted(numbers)
 print(sorted_numbers)
+print(numbers)
+
+digits = sorted("452136879")
+print(digits)
