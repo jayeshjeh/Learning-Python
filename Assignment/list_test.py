@@ -47,3 +47,4 @@ print(start)
 del data[start:]
 print(data)
 
+data = [104, 101, 4, 105, 308, 103, 5, 107, 100, 306, 106, 102, 108]
