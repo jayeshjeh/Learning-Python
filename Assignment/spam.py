@@ -35,7 +35,7 @@ for meal in menu:
         if meal[i] == "spam":
             del meal[i]
 
-    print(meal)
+    print(", ".join(meal))
 
 for meal in menu:
     for item in meal:
