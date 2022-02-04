@@ -4,3 +4,7 @@ fox jumps\tover
 
 words = panagram.split()
 print(words)
+
+num = len(input("Whats ur name?"))
+new = str(num)
+print("Your name has " + new + " characters")
