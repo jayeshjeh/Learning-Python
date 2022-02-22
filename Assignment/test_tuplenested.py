@@ -39,7 +39,7 @@ albums = [
 ]
 
 for name, artist, year, songs in albums:
-    print("Album: {}, artist: {}, year: {}, songs: {}".format(name, artist, year, songs))
+    print("Album: {}, Artist: {}, Year: {}, Songs: {}".format(name, artist, year, songs))
 
 album = albums[2]
 print(album)
