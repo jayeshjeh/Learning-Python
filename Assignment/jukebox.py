@@ -1,6 +1,6 @@
 from test_tuplenested import albums
 
-songs_list = 3
+SONGS_LIST = 3
 
 while True:
     print("Please choose your album (invalid choice exits):")
