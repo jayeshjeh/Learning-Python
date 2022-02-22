@@ -38,21 +38,30 @@ albums = [
      ),
 ]
 
-for name, artist, year, songs in albums:
-    print("Album: {}, Artist: {}, Year: {}, Songs: {}".format(name, artist, year, songs))
+SONGS_LIST = 3
+SONG_TITLE = 1
 
-print()
+while True:
+    print("Please choose your album (invalid choice exits):")
+    for index, (title, artist, year, songs) in enumerate(albums):
+        print("{}: {}".format(index + 1, title))
 
-album = albums[3]
-print(album)
+    choice = int(input())
+    if 1 <= choice <= len(albums):
+        songs_list = albums[choice - 1][SONGS_LIST]
+    else:
+        break
 
-songs = album[3]
-print(songs)
+    print("Please choose your song:")
+    for index, (track_number, song) in enumerate(songs_list):
+        print("{}: {}".format(index + 1, song))
 
-song = songs[2]
-print(song)
-print(song[1])
+    song_choice = int(input())
+    if 1 <= song_choice <= len(songs_list):
+        title = songs_list[song_choice - 1][SONG_TITLE]
+    else:
+        break
 
-mayhem = albums[3][3][2][1]
-print(mayhem)
-
+    print("Playing {}".format(title))
+    print("=" * 40)
+    
