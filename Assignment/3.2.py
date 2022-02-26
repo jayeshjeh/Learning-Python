@@ -23,7 +23,8 @@ def main():
     print("Enter the length of numbers")
     no1 = int(input())
 
-    ret = fun(no1)
+    fun(no1)
+
 
 if __name__ == "__main__":
     main()
