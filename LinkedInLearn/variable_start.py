@@ -5,21 +5,21 @@
 
 
 # Basic data types in Python: Numbers, Strings, Booleans, Sequences, Dictionaries
-myint = 5
-myfloat = 13.2
-mystr = "This is a string"
-mybool = True
-mylist = [0, 1, "two", 3.2, False]
-mytuple = (0, 1, 2)
-mydict = {"one" : 1, "two" : 2}
+myInt = 5
+myFloat = 13.2
+myStr = "This is a string"
+myBool = True
+myList = [0, 1, "two", 3.2, False]
+myTuple = (0, 1, 2)
+myDict = {"one": 1, "two": 2}
 
-print(myint)
-print(myfloat)
-print(mystr)
-print(mybool)
-print(mylist)
-print(mytuple)
-print(mydict)
+print(myInt)
+print(myFloat)
+print(myStr)
+print(myBool)
+print(myList)
+print(myTuple)
+print(myDict)
 
 # re-declaring a variable works
 
