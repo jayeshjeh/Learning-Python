@@ -35,6 +35,12 @@ def multi_add(*args):
     return result
 
 
+def inc(a, b=1):
+    return (a+b)
+a = inc(1)
+a = inc(a, a)
+print(a)
+
 # func1()
 # print(func1())  # I am a function and print will print None as there is no return type
 # print(func1)    # <function func1 at 0x0000025F9303E9E0>
@@ -48,4 +54,4 @@ def multi_add(*args):
 #
 # print(power(x=3, num=2))
 
-print(multi_add(4, 5, 10, 4, 10))
+# print(multi_add(4, 5, 10, 4, 10))
