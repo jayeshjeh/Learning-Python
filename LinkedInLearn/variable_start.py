@@ -13,24 +13,46 @@ myList = [0, 1, "two", 3.2, False]
 myTuple = (0, 1, 2)
 myDict = {"one": 1, "two": 2}
 
-print(myInt)
-print(myFloat)
-print(myStr)
-print(myBool)
-print(myList)
-print(myTuple)
-print(myDict)
+# print(myInt)
+# print(myFloat)
+# print(myStr)
+# print(myBool)
+# print(myList)
+# print(myTuple)
+# print(myDict)
+
+print("--------------")
 
 # re-declaring a variable works
+myInt = "abc"
+print(myInt)
 
 # to access a member of a sequence type, use []
+print(myList[2])
+print(myTuple[1])
 
 # use slices to get parts of a sequence
+print(myList[1:5])
+print(myList[1:5:2])
 
 # you can use slices to reverse a sequence
+print(myList[::-1])
 
 # dictionaries are accessed via keys
+print(myDict["one"])
 
 # ERROR: variables of different types cannot be combined
+# print("String type " + str(213))
+
 
 # Global vs. local variables in functions
+def function():
+    global myStr
+    myStr = "def"
+    print(myStr)
+
+function()
+print(myStr)
+
+del myStr
+print(myStr)
