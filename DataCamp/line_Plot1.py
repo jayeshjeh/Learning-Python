@@ -12,7 +12,10 @@ print(pop[-1])
 
 # Make a line plot: year on the x-axis, pop on the y-axis
 plt.plot(year, pop)
-
+# plt.scatter(year, pop)
+#
+# # Put the x-axis on a logarithmic scale
+# plt.xscale('log')
 
 # Display the plot with plt.show()
 plt.show()
