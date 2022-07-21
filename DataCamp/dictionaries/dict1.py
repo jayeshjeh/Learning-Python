@@ -3,7 +3,7 @@ countries = ['spain', 'france', 'germany', 'norway']
 capitals = ['madrid', 'paris', 'berlin', 'oslo']
 
 # Get index of 'germany': ind_ger
-int_ger = countries.index('germany')
+ind_ger = countries.index('germany')
 
 # Use ind_ger to print out capital of Germany
-print(int_ger)
+print(capitals[ind_ger])
