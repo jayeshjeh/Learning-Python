@@ -17,5 +17,6 @@
 #
 # # Show the plot
 # plt.show()
+# plt.grid(True)
 
 # can't run file from data camp, data inbuilt that's y
