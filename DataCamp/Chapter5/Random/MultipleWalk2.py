@@ -30,3 +30,6 @@ ends = np_aw_t[-1, :]
 # Plot histogram of ends, display plot
 plt.hist(ends)
 plt.show()
+
+
+# last question:: np.mean(ends >= 30) gives you the fraction of simulations that ended greater than or equal to step 30
